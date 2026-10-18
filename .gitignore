@@ -1,0 +1,65 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Packaging / build output
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+pip-wheel-metadata/
+
+# Virtual environments (never commit; recreate with requirements.txt)
+venv/
+.venv/
+env/
+ENV/
+pyvenv.cfg
+
+# Test, coverage and tool caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ── Editors / IDEs ────────────────────────────────────────
+# PyCharm project settings are machine specific (interpreter path, window layout)
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# ── Operating systems ─────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Secrets / local configuration ─────────────────────────
+.env
+.env.*
+*.env
+*.pem
+*.key
+secrets.*
+
+# ── Claude Code ───────────────────────────────────────────
+.claude/
+
+# IMPORTANT: a global ignore file is also used on the author's machine.
+# This file is kept complete on its own so a fresh clone stays clean.
+
+# ── Project specific ──────────────────────────────────────
+# py2exe output (Windows executable) lands in dist/ and build/ (ignored above).
