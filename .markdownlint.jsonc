@@ -1,0 +1,7 @@
+// markdownlint settings for this repository (the VS Code extension reads
+// this file). While it exists the extension's own defaults are not applied,
+// so the extension default "MD013": false is written out here.
+{
+  // Line length: README paragraphs are written as prose, one line each.
+  "MD013": false
+}
